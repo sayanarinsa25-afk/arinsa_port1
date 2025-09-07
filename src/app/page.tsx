@@ -255,7 +255,7 @@ export default function Portfolio() {
     </div>
   ),
   mediaType: "video",
-  mediaSrc: "/video/NexusMD.mp4", // replace with actual image path
+  mediaSrc: "/video/Nexusmd.mp4", // replace with actual image path
   poster: "/image/NexusMD-thumbnail.jpg",
   url: "https://nexusmd.ai/",
 }
@@ -348,7 +348,7 @@ export default function Portfolio() {
   ),
   mediaType: "video",
   mediaSrc: "/video/Ondeck.mp4", // replace with actual image path
-  poster: "/image/Ondeck-thumbnail.jpg",
+  poster: "/image/ondeck-thumbnail.jpg",
   url: "https://www.ondeck.com/",
 }
 ,
@@ -433,7 +433,7 @@ export default function Portfolio() {
   ),
   mediaType: "video",
   poster: "/image/MediCopy-thumbnail.jpg",
-  mediaSrc: "/video/MediCopy.mp4", // replace with actual MediCopy project image
+  mediaSrc: "/video/Medicopy.mp4", // replace with actual MediCopy project image
   url: "https://medicopy.net/",
 },
     {
@@ -708,7 +708,7 @@ export default function Portfolio() {
   ),
   mediaType: "video",
   poster: "/image/MFine-thumbnail.jpg",
-  mediaSrc: "/video/MFine.mp4", 
+  mediaSrc: "/video/Mfine.mp4", 
   url: "https://www.mfine.co/",
 }
 ,{
@@ -1734,7 +1734,7 @@ export default function Portfolio() {
 </div>
   ),
   mediaType: "video",
-  mediaSrc: "/video/AIMakerPro.mp4", // replace with actual showcase demo video
+  mediaSrc: "/video/Aimakerpro.mp4", // replace with actual showcase demo video
   poster: "/image/AIMakerPro-thumbnail.png",
   url: "https://aimaker.pro/",
 },
