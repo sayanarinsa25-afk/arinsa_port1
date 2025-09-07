@@ -82,7 +82,7 @@ export default function Portfolio() {
     </div>
   ),
   mediaType: "video",
-  mediaSrc: "/video/huspy.mp4", // replace with actual image path
+  mediaSrc: "/video/Huspy.mp4", // replace with actual image path
   poster: "/image/huspy-thumbnail.png",
   url: "https://www.huspy.com/",
 }
