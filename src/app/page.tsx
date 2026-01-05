@@ -18,7 +18,6 @@ interface Project {
   poster?: string; // ✅ added for video thumbnail
   url?: string;
 }
-
 export default function Portfolio() {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
 
