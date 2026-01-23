@@ -82,7 +82,7 @@ export default function Portfolio() {
     </div>
   ),
   mediaType: "video",
-  mediaSrc: "/video/Huspy.mp4", // replace with actual image path
+  mediaSrc: "/video/huspy.mp4", // replace with actual image path
   poster: "/image/huspy-thumbnail.png",
   url: "https://www.huspy.com/",
 }
@@ -169,8 +169,99 @@ export default function Portfolio() {
   poster: "/image/Asda-thumbnail.jpg",
   url: "https://www.asda.com/",
 }
-,    {
+,
+    {
   id: 3,
+  title: "NexusMD – AI Agents for Hospital Operations",
+  shortDescription:
+    "AI-powered agents designed to reduce administrative workload, improve Emergency Department throughput, and ensure compliance in hospital operations.",
+  description: (
+    <div className="text-gray-700 leading-relaxed space-y-4">
+      <p>
+        NexusMD set out to move beyond basic transcription and create{" "}
+        <strong>next-generation AI agents</strong> that drive measurable impact
+        in hospital operations. At Peninsula Private Hospital, the focus was on
+        addressing one of healthcare’s biggest challenges: overburdened staff,
+        delayed documentation, and inefficiencies in the Emergency Department
+        (ED). The client’s goal was to improve throughput, reduce administrative
+        workload, and ensure accurate, compliant medical records—all while
+        enabling staff to dedicate more time to patient care.
+      </p>
+
+      <h4 className="mt-6 text-lg font-semibold text-gray-900">
+        Our Contribution
+      </h4>
+      <ul className="list-disc list-inside space-y-2">
+        <li>
+          <strong>Speech-to-Text & Documentation Enhancement:</strong> Captured
+          doctor–patient interactions, transcribed them into accurate notes, and
+          applied AI to improve clarity.
+        </li>
+        <li>
+          <strong>Medical Entity Extraction:</strong> Leveraged NLP to detect
+          symptoms, diagnoses, medications, and procedures from transcripts.
+        </li>
+        <li>
+          <strong>Structured Note Generation:</strong> Produced well-organized,
+          review-ready clinical notes for faster approval.
+        </li>
+        <li>
+          <strong>AI Compliance Module:</strong> Implemented automated checks
+          against hospital policies and clinical guidelines, ensuring mandatory
+          fields were complete and error-free.
+        </li>
+        <li>
+          <strong>Workflow Automation:</strong> Reduced repetitive documentation
+          tasks, freeing doctors and nurses from administrative overload.
+        </li>
+      </ul>
+
+      <h4 className="mt-6 text-lg font-semibold text-gray-900">
+        Project Success
+      </h4>
+      <ul className="list-disc list-inside space-y-2">
+        <li>
+          <strong>Operational Efficiency:</strong> 30% boost in ED throughput,
+          enabling faster patient turnaround, shorter wait times, and greater
+          capacity without additional staff.
+        </li>
+        <li>
+          <strong>Cost Reduction:</strong> Decreased reliance on manual scribes
+          and admin support, lowering hospital operating expenses.
+        </li>
+        <li>
+          <strong>Compliance & Risk Mitigation:</strong> Automated checks
+          enhanced regulatory adherence and minimized malpractice risks.
+        </li>
+        <li>
+          <strong>Improved Staff Productivity:</strong> Clinicians shifted focus
+          from paperwork to patient care, improving morale and outcomes.
+        </li>
+        <li>
+          <strong>Scalable Impact:</strong> Designed for extension beyond the
+          ED, driving efficiency gains across multiple hospital departments.
+        </li>
+      </ul>
+
+      <p>
+        Through this partnership, <strong>Arinsa AI Minds</strong> and{" "}
+        <strong>NexusMD</strong> demonstrated how AI agents can transform
+        healthcare workflows not just by transcribing conversations, but by
+        ensuring compliance, boosting efficiency, and enhancing clinical
+        excellence. The NexusMD deployment at Peninsula Private Hospital proves
+        that AI can deliver both operational improvements and better patient
+        outcomes in the healthcare sector.
+      </p>
+    </div>
+  ),
+  mediaType: "video",
+  mediaSrc: "/video/NexusMD.mp4", // replace with actual image path
+  poster: "/image/NexusMD-thumbnail.jpg",
+  url: "https://nexusmd.ai/",
+}
+,
+    {
+  id: 4,
   title: "OnDeck – AI + RPA-Driven Loan Processing System",
   shortDescription:
     "AI and RPA-powered loan processing system that reduced approval times by 70%, improved customer satisfaction, and enabled scalable lending operations.",
@@ -257,12 +348,12 @@ export default function Portfolio() {
   ),
   mediaType: "video",
   mediaSrc: "/video/Ondeck.mp4", // replace with actual image path
-  poster: "/image/ondeck-thumbnail.jpg",
+  poster: "/image/Ondeck-thumbnail.jpg",
   url: "https://www.ondeck.com/",
 }
 ,
     {
-  id: 4,
+  id: 5,
   title: "MediCopy – AI + RPA Transformation of Healthcare Records Management",
   shortDescription:
     "AI + RPA-powered records management platform that achieved 85% faster processing, improved HIPAA compliance, and ensured secure, scalable healthcare data handling.",
@@ -342,12 +433,103 @@ export default function Portfolio() {
   ),
   mediaType: "video",
   poster: "/image/MediCopy-thumbnail.jpg",
-  mediaSrc: "/video/Medicopy.mp4", // replace with actual MediCopy project image
+  mediaSrc: "/video/MediCopy.mp4", // replace with actual MediCopy project image
   url: "https://medicopy.net/",
+},
+    {
+  id: 6,
+  title: "Kogan – Development of Australia’s Leading E-Commerce Platform",
+  shortDescription:
+    "AI-powered, scalable e-commerce platform with intelligent search, personalization, secure payments, and SEO optimization serving millions of customers across Australia.",
+  description: (
+    <div className="text-gray-700 leading-relaxed space-y-4">
+      <p>
+        <strong>Kogan</strong>, one of Australia’s largest and fastest-growing
+        e-commerce companies, wanted to enhance its digital presence with a
+        scalable, intelligent, and secure platform capable of handling millions
+        of users. The primary objectives were to deliver a seamless online
+        shopping experience, integrate AI-driven personalization and intelligent
+        search, improve site performance, ensure mobile responsiveness, enable
+        safe payment options, and strengthen long-term scalability through SEO
+        optimization.
+      </p>
+
+      <h4 className="mt-6 text-lg font-semibold text-gray-900">
+        Our Contribution
+      </h4>
+      <ul className="list-disc list-inside space-y-2">
+        <li>
+          <strong>End-to-End Project Leadership:</strong> Directed requirements
+          gathering, technical roadmapping, sprint planning, and stakeholder
+          communication, ensuring delivery within scope and budget.
+        </li>
+        <li>
+          <strong>Frontend & Backend Development:</strong> Built a responsive,
+          user-friendly frontend and a robust backend capable of supporting
+          massive traffic.
+        </li>
+        <li>
+          <strong>AI-Powered Integrations:</strong> Added personalized product
+          recommendations, advanced search capabilities, and behavioral insights
+          to boost engagement and conversions.
+        </li>
+        <li>
+          <strong>Secure Payment & API Integrations:</strong> Oversaw secure
+          payment gateway integration and third-party APIs to streamline
+          transactions and extend platform functionality.
+        </li>
+        <li>
+          <strong>Performance Optimization:</strong> Reduced load times,
+          optimized server responses, and ensured scalability for millions of
+          concurrent users.
+        </li>
+        <li>
+          <strong>Mobile Responsiveness & SEO Enhancements:</strong> Delivered
+          responsive design across devices and implemented SEO best practices to
+          drive organic traffic and visibility.
+        </li>
+      </ul>
+
+      <h4 className="mt-6 text-lg font-semibold text-gray-900">
+        Project Success
+      </h4>
+      <ul className="list-disc list-inside space-y-2">
+        <li>
+          <strong>Customer Experience:</strong> AI-driven personalization and
+          intelligent search improved satisfaction, engagement, and retention.
+        </li>
+        <li>
+          <strong>Conversion & Sales:</strong> Performance optimizations and
+          responsive design boosted conversion rates and repeat purchases.
+        </li>
+        <li>
+          <strong>Market Reach:</strong> SEO enhancements drove organic traffic,
+          strengthening Kogan’s position against global competitors.
+        </li>
+        <li>
+          <strong>Long-Term Value:</strong> Future-ready, adaptable platform
+          capable of evolving with market and customer demands.
+        </li>
+      </ul>
+
+      <p>
+        By aligning business objectives with technical execution,{" "}
+        <strong>Arinsa AI Minds</strong> delivered a high-performing, secure,
+        and scalable e-commerce platform. The project gave{" "}
+        <strong>Kogan</strong> a seamless shopping experience, operational
+        efficiency, and a strong competitive edge in the global e-commerce
+        landscape.
+      </p>
+    </div>
+  ),
+  mediaType: "video",
+  poster: "/image/Kogan-thumbnail.png",
+  mediaSrc: "/video/Kogan.mp4", 
+  url: "https://www.kogan.com/au/",
 }
 ,
 {
-  id: 5,
+  id: 7,
   title: "Heidi Health – AI-Powered Medical Scribe Solution",
   shortDescription:
     "AI-driven medical scribe that reduced physician documentation time by 70%, improved patient care, ensured compliance, and scaled across specialties and telehealth.",
@@ -439,7 +621,7 @@ export default function Portfolio() {
   url: "https://www.heidihealth.com/au",
 }
 ,{
-  id: 6,
+  id: 8,
   title: "MFine – AI-Powered Healthcare Mobile App",
   shortDescription:
     "AI-driven healthcare app enabling online consultations, lab test bookings, vitals tracking, and secure health record management for millions of users.",
@@ -526,11 +708,11 @@ export default function Portfolio() {
   ),
   mediaType: "video",
   poster: "/image/MFine-thumbnail.jpg",
-  mediaSrc: "/video/Mfine.mp4", 
+  mediaSrc: "/video/MFine.mp4", 
   url: "https://www.mfine.co/",
 }
 ,{
-  id: 7,
+  id: 9,
   title: "EcoTrend Retail – AI-Powered Predictive Inventory Management",
   shortDescription:
     "Predictive AI solution that improved forecast accuracy by 20%, reduced stock imbalances by 15%, and delivered 30% staff time savings for EcoTrend’s retail operations.",
@@ -609,7 +791,7 @@ export default function Portfolio() {
 }
 ,
 {
-  id: 8,
+  id: 10,
   title: "LHV – Development of Cloud-Native Banking Infrastructure",
   shortDescription:
     "Built a cloud-native, API-first banking platform enabling instant GBP/EUR payments, virtual IBAN issuance, and open banking integrations, now serving 200+ fintech clients across Europe.",
@@ -698,7 +880,7 @@ export default function Portfolio() {
 }
 ,
 {
-  id: 9,
+  id: 11,
   title: "Manje Health – Digital Healthcare Platform",
   shortDescription:
     "Developed a secure, scalable platform enabling Africans in the diaspora to fund healthcare for families back home, with cross-border payments, hospital search, and insurance integration.",
@@ -782,7 +964,7 @@ export default function Portfolio() {
   url: "https://manjehealth.com/", // official client URL
 }
 ,{
-  id: 10,
+  id: 12,
   title: "Coles Liquor – AI/ML-Driven Demand Forecasting",
   shortDescription:
     "AI/ML-powered demand forecasting system that reduced stockouts, minimized overstocking, improved supplier coordination, and drove sales uplift across Coles Liquor stores.",
@@ -875,7 +1057,7 @@ export default function Portfolio() {
 }
 ,
 {
-  id: 11,
+  id: 13,
   title: "StyleDotMe – MirrAR: AI-Driven Augmented Reality Jewelry Try-On",
   shortDescription:
     "AI-powered AR jewelry try-on platform that boosted conversions by 200%, increased engagement, and reduced inventory costs for StyleDotMe’s retail partners.",
@@ -960,7 +1142,7 @@ export default function Portfolio() {
   url: "https://play.google.com/store/apps/developer?id=STYLEDOTME&hl=en_IN",
 }
 ,{
-  id: 12,
+  id: 14,
   title: "Nubank – AI-First Transformation of Latin America’s Digital Bank",
   shortDescription:
     "End-to-end AI transformation for Nubank: GPT-4 assistants, AI-driven Pix payments, fraud prevention, and hyperpersonalization across 80M+ customers.",
@@ -1057,7 +1239,7 @@ export default function Portfolio() {
   url: "https://nubank.com.br",
 }
 ,{
-  id: 13,
+  id: 15,
   title: "Myna Bolo – LLM-Powered Health Chatbot on WhatsApp",
   shortDescription:
     "WhatsApp-based health chatbot leveraging LLMs with doctor-in-the-loop safety, cultural adaptation, and telehealth features to serve underserved communities.",
@@ -1139,7 +1321,7 @@ export default function Portfolio() {
 }
 ,
 {
-  id: 14,
+  id: 16,
   title: "Arinsa Multi-Agent – Autonomous AI Workforce",
   shortDescription:
     "An advanced multi-agent system by Arinsa AI Minds, designed to function as a collaborative AI workforce across sales, finance, support, legal, research, and document tracking.",
@@ -1265,7 +1447,7 @@ export default function Portfolio() {
 },
 // AutoDocQuery
 {
-  id: 15,
+  id: 17,
   title: "AutoDocQuery – AI-Powered Multi-Document Intelligence",
   shortDescription:
     "Your AI assistant that ingests, queries, and summarizes knowledge from multiple documents instantly.",
@@ -1293,7 +1475,7 @@ export default function Portfolio() {
 
 // CodeSimplify
 {
-  id: 16,
+  id: 18,
   title: "CodeSimplify – AI-Powered Automated Code Documentation Generator",
   shortDescription:
     "Automatically generates clean, structured documentation from raw codebases, speeding up developer onboarding and maintenance.",
@@ -1318,7 +1500,7 @@ export default function Portfolio() {
 
 // InstaCoder
 {
-  id: 17,
+  id: 19,
   title: "InstaCoder – AI-Powered On-Demand Coding Assistant",
   shortDescription:
     "An intelligent coding assistant that suggests, fixes, and generates code snippets in real time, directly within IDEs.",
@@ -1343,7 +1525,7 @@ export default function Portfolio() {
 },
 // TransCoder
 {
-  id: 18,
+  id: 20,
   title: "TransCoder – AI-Powered Cross-Language Code Translator",
   shortDescription:
     "Seamlessly translates and migrates codebases between languages while preserving functional logic and structure.",
@@ -1369,7 +1551,7 @@ export default function Portfolio() {
 
 // TextifyAI
 {
-  id: 19,
+  id: 21,
   title: "TextifyAI – AI-Powered Creative & Functional Text Generator",
   shortDescription:
     "Generates high-quality, tailored text for blogs, copywriting, and technical documentation in multiple languages.",
@@ -1395,7 +1577,7 @@ export default function Portfolio() {
 
 // Text2Vision
 {
-  id: 20,
+  id: 22,
   title: "Text2Vision – AI-Powered Text-to-Image Visual Generator",
   shortDescription:
     "Transforms text prompts into high-quality visuals for marketing, design, and storytelling applications.",
@@ -1420,7 +1602,7 @@ export default function Portfolio() {
 },
 
 {
-  id: 21,
+  id: 23,
   title: "SummarizerPro – Video Summarizer",
   shortDescription:
     "AI-powered tool that condenses long videos into short highlight summaries for fast insights.",
@@ -1443,7 +1625,7 @@ export default function Portfolio() {
   poster: "/image/SummarizerPro-thumbnail.jpg",
 },
 {
-  id: 22,
+  id: 24,
   title: "SummarizerPro – Audio Summarizer",
   shortDescription:
     "Effortlessly summarizes long audio content like podcasts, interviews, or meetings into key insights.",
@@ -1466,7 +1648,7 @@ export default function Portfolio() {
   poster: "/image/SummarizerPro-thumbnail.jpg",
 },
 {
-  id: 23,
+  id: 25,
   title: "SummarizerPro – Document & Article Text Summarizer",
   shortDescription:
     "AI-driven summarization of documents, articles, and reports into concise, actionable insights.",
@@ -1491,7 +1673,7 @@ export default function Portfolio() {
 ,
 
 {
-  id: 24,
+  id: 26,
   title: "AI Maker Pro – Text-to-Image AI App",
   shortDescription:
     "AI Maker Pro is a next-generation text-to-image application that empowers users to instantly create stunning visuals from natural language prompts.",
@@ -1552,13 +1734,13 @@ export default function Portfolio() {
 </div>
   ),
   mediaType: "video",
-  mediaSrc: "/video/Aimakerpro.mp4", // replace with actual showcase demo video
+  mediaSrc: "/video/AIMakerPro.mp4", // replace with actual showcase demo video
   poster: "/image/AIMakerPro-thumbnail.png",
   url: "https://aimaker.pro/",
 },
 
 {
-  id: 25,
+  id: 27,
   title: "Wealthfront – Automated Investment & Wealth Management Platform",
   shortDescription:
     "Wealthfront is an automated wealth management app offering smart investing, personalized planning, and easy money management.",
@@ -1628,6 +1810,75 @@ export default function Portfolio() {
   poster: "/image/Wealthfront-thumbnail.png",
   url: "https://www.wealthfront.com/",
 },
+
+{
+  id: 28,
+  title: "AI Intelligence for Impact Decisions – Landing Platform",
+  shortDescription:
+    "An AI-powered decision intelligence platform to analyze policies, ESG data, and global trends for smarter impact-driven decisions.",
+  description: (
+    <div className="text-gray-700 leading-relaxed space-y-6">
+      <p>
+        This <strong>AI-powered decision intelligence platform</strong> serves as
+        the central entry point for organizations seeking clarity across complex
+        policy, ESG, and sustainability data. Designed with a modern,
+        mobile-first experience, the landing platform introduces users to
+        AI-driven insights that transform raw data into actionable intelligence.
+      </p>
+
+      <h3 className="text-2xl font-bold text-gray-900">Core Capabilities</h3>
+      <ul className="list-disc list-inside space-y-2">
+        <li>
+          <strong>AI Insights:</strong> Large Language Models analyze policy
+          documents, ESG reports, and sustainability data for deep contextual
+          understanding.
+        </li>
+        <li>
+          <strong>Trend Monitoring:</strong> Track emerging risks, funding
+          signals, and global impact trends in real time.
+        </li>
+        <li>
+          <strong>Decision Intelligence:</strong> Convert complex datasets into
+          clear, strategic actions for leadership and stakeholders.
+        </li>
+        <li>
+          <strong>User Onboarding:</strong> Seamless access to demos, platform
+          previews, and authentication workflows.
+        </li>
+      </ul>
+
+      <h3 className="text-2xl font-bold text-gray-900">Impact</h3>
+      <ul className="list-disc list-inside space-y-2">
+        <li>
+          <strong>Faster Decision-Making:</strong> Reduces analysis time by
+          surfacing insights instantly using AI.
+        </li>
+        <li>
+          <strong>Clarity at Scale:</strong> Helps organizations navigate large
+          volumes of unstructured policy and ESG data.
+        </li>
+        <li>
+          <strong>Strategic Confidence:</strong> Empowers teams with data-backed
+          recommendations.
+        </li>
+        <li>
+          <strong>Scalable Foundation:</strong> Acts as a gateway to advanced
+          AI-powered modules and dashboards.
+        </li>
+      </ul>
+
+      <p className="mt-6">
+        This landing experience represents the foundation of an
+        <strong> AI-driven impact intelligence ecosystem</strong>—connecting
+        users to smarter decisions, faster insights, and measurable outcomes.
+      </p>
+    </div>
+  ),
+  mediaType: "video",
+  mediaSrc: "/video/Africanlab.mp4",
+  poster: "/image/Africanlab.png",
+},
+
 
 
   ];
@@ -2047,7 +2298,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-6 px-8 text-center bg-gray-900 text-gray-300">
         <p className="font-semibold">ARINSA AI MINDS PVT LTD</p>
-        <p>© 2026 All rights reserved.</p>
+        <p>© 2025 All rights reserved.</p>
       </footer>
     </div>
   );
