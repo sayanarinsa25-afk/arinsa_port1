@@ -1911,6 +1911,7 @@ export default function Portfolio() {
 </div>
 
 
+
   {/* Company name */}
   <div className="leading-tight">
     <h1 className="text-2xl font-bold tracking-wide">ARINSA</h1>
