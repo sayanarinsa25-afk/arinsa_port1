@@ -2302,7 +2302,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-6 px-8 text-center bg-gray-900 text-gray-300">
         <p className="font-semibold">ARINSA AI MINDS PVT LTD</p>
-        <p>© 2025 All rights reserved.</p>
+        <p>© 2026 All rights reserved.</p>
       </footer>
     </div>
   );
