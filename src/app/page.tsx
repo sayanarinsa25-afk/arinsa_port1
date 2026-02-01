@@ -1899,12 +1899,12 @@ export default function Portfolio() {
             transition={{ duration: 0.6 }}
             className="flex items-center gap-8"
           >
-            <div className="relative w-28 h-28 shrink-0">
+            <div className="relative w-40 h-40 shrink-0">
               <Image
                 src="/image/purple-logo.png"
                 alt="Arinsa AI Minds Logo"
                 fill
-                sizes="112px"
+                sizes="160px"
                 className="rounded-full shadow-lg border-2 border-white object-cover"
                 priority
               />
