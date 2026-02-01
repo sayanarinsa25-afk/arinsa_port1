@@ -1899,17 +1899,17 @@ export default function Portfolio() {
             transition={{ duration: 0.6 }}
             className="flex items-center gap-8"
           >
-            <div className="flex items-center gap-4">
-  {/* Circle logo */}
-  <div className="relative w-16 h-16 rounded-full border-2 border-white shadow-md">
-    <Image
-      src="/image/purple-logo.png"   // ANS symbol only
-      alt="ANS Logo"
-      fill
-      className="object-contain p-2"
-      priority
-    />
-  </div>
+            <div className="relative w-[320px] md:w-[420px] h-auto">
+  <Image
+    src="/image/purple-logo.png"
+    alt="Arinsa AI Minds Logo"
+    width={420}
+    height={140}
+    className="object-contain"
+    priority
+  />
+</div>
+
 
   {/* Company name */}
   <div className="leading-tight">
