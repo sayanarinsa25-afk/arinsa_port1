@@ -1899,7 +1899,7 @@ export default function Portfolio() {
             transition={{ duration: 0.6 }}
             className="flex items-center gap-8"
           >
-           <div className="relative">
+          <div className="relative max-w-[420px]">
   <Image
     src="/image/purple-logo.png"
     alt="Arinsa AI Minds Logo"
@@ -1910,15 +1910,6 @@ export default function Portfolio() {
   />
 </div>
 
-
-
-
-  {/* Company name */}
-  <div className="leading-tight">
-    <h1 className="text-2xl font-bold tracking-wide">ARINSA</h1>
-    <h2 className="text-xl font-semibold text-purple-400">AI MINDS</h2>
-  </div>
-</div>
 
 
             <h1 className="text-3xl md:text-4xl font-extrabold tracking-wide leading-tight break-words">
