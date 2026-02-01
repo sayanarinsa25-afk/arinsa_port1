@@ -1899,7 +1899,7 @@ export default function Portfolio() {
             transition={{ duration: 0.6 }}
             className="flex items-center gap-8"
           >
-            <div className="relative w-[320px] md:w-[420px] h-auto">
+           <div className="relative">
   <Image
     src="/image/purple-logo.png"
     alt="Arinsa AI Minds Logo"
@@ -1909,6 +1909,7 @@ export default function Portfolio() {
     priority
   />
 </div>
+
 
 
 
