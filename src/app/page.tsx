@@ -527,101 +527,8 @@ export default function Portfolio() {
   mediaSrc: "/video/Kogan.mp4", 
   url: "https://www.kogan.com/au/",
 }
-,
-{
-  id: 7,
-  title: "Heidi Health – AI-Powered Medical Scribe Solution",
-  shortDescription:
-    "AI-driven medical scribe that reduced physician documentation time by 70%, improved patient care, ensured compliance, and scaled across specialties and telehealth.",
-  description: (
-    <div className="text-gray-700 leading-relaxed space-y-4">
-      <p>
-        <strong>Heidi Health</strong> sought to solve a pressing challenge in
-        modern healthcare: physicians spending excessive time on manual
-        documentation after consultations. This not only reduced face-to-face
-        patient interaction but also contributed to physician burnout and
-        administrative inefficiency. Their goal was to build an AI-driven
-        medical scribe platform that could automate clinical documentation in
-        real time, ensuring accuracy, compliance, and scalability across diverse
-        medical specialties and telehealth environments.
-      </p>
-
-      <h4 className="mt-6 text-lg font-semibold text-gray-900">
-        Our Contribution
-      </h4>
-      <ul className="list-disc list-inside space-y-2">
-        <li>
-          <strong>Speech Recognition & Transcription:</strong> Captured
-          consultation audio and converted it into high-quality transcripts
-          using advanced speech-to-text models.
-        </li>
-        <li>
-          <strong>NLP Pipelines:</strong> Applied natural language processing to
-          extract key clinical entities such as symptoms, diagnoses,
-          medications, and conditions.
-        </li>
-        <li>
-          <strong>Intelligent Summarization:</strong> Generated structured
-          clinical notes and automated pre-chart summaries that doctors could
-          quickly review and approve.
-        </li>
-        <li>
-          <strong>Guideline-Integrated Compliance:</strong> Embedded clinical
-          guideline checks to ensure documentation accuracy and regulatory
-          readiness.
-        </li>
-        <li>
-          <strong>EHR Integration:</strong> Enabled seamless interoperability
-          with electronic health record systems for smooth adoption by
-          healthcare providers.
-        </li>
-      </ul>
-
-      <h4 className="mt-6 text-lg font-semibold text-gray-900">
-        Project Success
-      </h4>
-      <ul className="list-disc list-inside space-y-2">
-        <li>
-          <strong>Time & Cost Savings:</strong> Achieved up to 70% reduction in
-          administrative workload, enabling more patient consultations and
-          lowering operational costs.
-        </li>
-        <li>
-          <strong>Improved Patient Experience:</strong> Freed from paperwork,
-          physicians devoted more attention to patients, boosting satisfaction
-          and trust.
-        </li>
-        <li>
-          <strong>Accuracy & Compliance:</strong> Automated checks reduced
-          errors and supported regulatory standards.
-        </li>
-        <li>
-          <strong>Rapid Scalability:</strong> Adaptable across multiple
-          specialties and telehealth workflows, supporting expansion following
-          Heidi Health’s AUD $16.6M Series A in March 2025.
-        </li>
-        <li>
-          <strong>Competitive Edge:</strong> Unique features such as pre-chart
-          summaries and built-in compliance gave Heidi Health a distinct
-          advantage in the AI healthcare market.
-        </li>
-      </ul>
-
-      <p>
-        Through this collaboration, <strong>Arinsa AI Minds</strong> enabled{" "}
-        <strong>Heidi Health</strong> to achieve operational efficiency, revenue
-        growth, and market leadership, showcasing how AI can drive meaningful
-        business transformation in healthcare.
-      </p>
-    </div>
-  ),
-  mediaType: "video",
-  poster: "/image/Heidihealth-thumbnail.jpg",
-  mediaSrc: "/video/Heidihealth.mp4", 
-  url: "https://www.heidihealth.com/au",
-}
 ,{
-  id: 8,
+  id: 7,
   title: "MFine – AI-Powered Healthcare Mobile App",
   shortDescription:
     "AI-driven healthcare app enabling online consultations, lab test bookings, vitals tracking, and secure health record management for millions of users.",
@@ -712,7 +619,7 @@ export default function Portfolio() {
   url: "https://www.mfine.co/",
 }
 ,{
-  id: 9,
+  id: 8,
   title: "EcoTrend Retail – AI-Powered Predictive Inventory Management",
   shortDescription:
     "Predictive AI solution that improved forecast accuracy by 20%, reduced stock imbalances by 15%, and delivered 30% staff time savings for EcoTrend’s retail operations.",
@@ -791,7 +698,7 @@ export default function Portfolio() {
 }
 ,
 {
-  id: 10,
+  id: 9,
   title: "LHV – Development of Cloud-Native Banking Infrastructure",
   shortDescription:
     "Built a cloud-native, API-first banking platform enabling instant GBP/EUR payments, virtual IBAN issuance, and open banking integrations, now serving 200+ fintech clients across Europe.",
@@ -880,7 +787,7 @@ export default function Portfolio() {
 }
 ,
 {
-  id: 11,
+  id: 10,
   title: "Manje Health – Digital Healthcare Platform",
   shortDescription:
     "Developed a secure, scalable platform enabling Africans in the diaspora to fund healthcare for families back home, with cross-border payments, hospital search, and insurance integration.",
@@ -964,7 +871,7 @@ export default function Portfolio() {
   url: "https://manjehealth.com/", // official client URL
 }
 ,{
-  id: 12,
+  id: 11,
   title: "Coles Liquor – AI/ML-Driven Demand Forecasting",
   shortDescription:
     "AI/ML-powered demand forecasting system that reduced stockouts, minimized overstocking, improved supplier coordination, and drove sales uplift across Coles Liquor stores.",
@@ -1057,7 +964,7 @@ export default function Portfolio() {
 }
 ,
 {
-  id: 13,
+  id: 12,
   title: "StyleDotMe – MirrAR: AI-Driven Augmented Reality Jewelry Try-On",
   shortDescription:
     "AI-powered AR jewelry try-on platform that boosted conversions by 200%, increased engagement, and reduced inventory costs for StyleDotMe’s retail partners.",
@@ -1142,7 +1049,7 @@ export default function Portfolio() {
   url: "https://play.google.com/store/apps/developer?id=STYLEDOTME&hl=en_IN",
 }
 ,{
-  id: 14,
+  id: 13,
   title: "Nubank – AI-First Transformation of Latin America’s Digital Bank",
   shortDescription:
     "End-to-end AI transformation for Nubank: GPT-4 assistants, AI-driven Pix payments, fraud prevention, and hyperpersonalization across 80M+ customers.",
@@ -1239,7 +1146,7 @@ export default function Portfolio() {
   url: "https://nubank.com.br",
 }
 ,{
-  id: 15,
+  id: 14,
   title: "Myna Bolo – LLM-Powered Health Chatbot on WhatsApp",
   shortDescription:
     "WhatsApp-based health chatbot leveraging LLMs with doctor-in-the-loop safety, cultural adaptation, and telehealth features to serve underserved communities.",
@@ -1321,7 +1228,7 @@ export default function Portfolio() {
 }
 ,
 {
-  id: 16,
+  id: 15,
   title: "Arinsa Multi-Agent – Autonomous AI Workforce",
   shortDescription:
     "An advanced multi-agent system by Arinsa AI Minds, designed to function as a collaborative AI workforce across sales, finance, support, legal, research, and document tracking.",
@@ -1447,7 +1354,7 @@ export default function Portfolio() {
 },
 // AutoDocQuery
 {
-  id: 17,
+  id: 16,
   title: "AutoDocQuery – AI-Powered Multi-Document Intelligence",
   shortDescription:
     "Your AI assistant that ingests, queries, and summarizes knowledge from multiple documents instantly.",
@@ -1475,7 +1382,7 @@ export default function Portfolio() {
 
 // CodeSimplify
 {
-  id: 18,
+  id: 17,
   title: "CodeSimplify – AI-Powered Automated Code Documentation Generator",
   shortDescription:
     "Automatically generates clean, structured documentation from raw codebases, speeding up developer onboarding and maintenance.",
@@ -1500,7 +1407,7 @@ export default function Portfolio() {
 
 // InstaCoder
 {
-  id: 19,
+  id: 18,
   title: "InstaCoder – AI-Powered On-Demand Coding Assistant",
   shortDescription:
     "An intelligent coding assistant that suggests, fixes, and generates code snippets in real time, directly within IDEs.",
@@ -1525,7 +1432,7 @@ export default function Portfolio() {
 },
 // TransCoder
 {
-  id: 20,
+  id: 19,
   title: "TransCoder – AI-Powered Cross-Language Code Translator",
   shortDescription:
     "Seamlessly translates and migrates codebases between languages while preserving functional logic and structure.",
@@ -1551,7 +1458,7 @@ export default function Portfolio() {
 
 // TextifyAI
 {
-  id: 21,
+  id: 20,
   title: "TextifyAI – AI-Powered Creative & Functional Text Generator",
   shortDescription:
     "Generates high-quality, tailored text for blogs, copywriting, and technical documentation in multiple languages.",
@@ -1577,7 +1484,7 @@ export default function Portfolio() {
 
 // Text2Vision
 {
-  id: 22,
+  id: 21,
   title: "Text2Vision – AI-Powered Text-to-Image Visual Generator",
   shortDescription:
     "Transforms text prompts into high-quality visuals for marketing, design, and storytelling applications.",
@@ -1602,7 +1509,7 @@ export default function Portfolio() {
 },
 
 {
-  id: 23,
+  id: 22,
   title: "SummarizerPro – Video Summarizer",
   shortDescription:
     "AI-powered tool that condenses long videos into short highlight summaries for fast insights.",
@@ -1625,7 +1532,7 @@ export default function Portfolio() {
   poster: "/image/SummarizerPro-thumbnail.jpg",
 },
 {
-  id: 24,
+  id: 23,
   title: "SummarizerPro – Audio Summarizer",
   shortDescription:
     "Effortlessly summarizes long audio content like podcasts, interviews, or meetings into key insights.",
@@ -1648,7 +1555,7 @@ export default function Portfolio() {
   poster: "/image/SummarizerPro-thumbnail.jpg",
 },
 {
-  id: 25,
+  id: 24,
   title: "SummarizerPro – Document & Article Text Summarizer",
   shortDescription:
     "AI-driven summarization of documents, articles, and reports into concise, actionable insights.",
@@ -1673,7 +1580,7 @@ export default function Portfolio() {
 ,
 
 {
-  id: 26,
+  id: 25,
   title: "AI Maker Pro – Text-to-Image AI App",
   shortDescription:
     "AI Maker Pro is a next-generation text-to-image application that empowers users to instantly create stunning visuals from natural language prompts.",
@@ -1740,7 +1647,7 @@ export default function Portfolio() {
 },
 
 {
-  id: 27,
+  id: 26,
   title: "Wealthfront – Automated Investment & Wealth Management Platform",
   shortDescription:
     "Wealthfront is an automated wealth management app offering smart investing, personalized planning, and easy money management.",
@@ -1812,7 +1719,7 @@ export default function Portfolio() {
 },
 
 {
-  id: 28,
+  id: 27,
   title: "AI Intelligence for Impact Decisions – Landing Platform",
   shortDescription:
     "An AI-powered decision intelligence platform to analyze policies, ESG data, and global trends for smarter impact-driven decisions.",
